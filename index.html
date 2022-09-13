@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="thestyle.css">
+    </head>
+    <body>
+
+        <h1>Aswin Sundar</h1>
+        <hr color="#ddd" size="1px">
+        
+        <div id="main-div">
+            
+            <!-- Intro -->
+
+            <p>Hi! I am Aswin. I am pursuing my Masters in Cybersecurity at Northeastern University. I got my Bachelor's degree in Computer Science and Engineering from Anna University (India), after which I worked at Honeywell Technology Solutions Lab Pvt. Ltd. (India) as a <i>Software Engineer I</i>.</p> 
+                
+            <p>I have an intense passion for the field of Cybersecurity and love learning new stuff about it everyday. I firmly believe that this continuous learning is the only way that will help me achieve my goal of becoming an ardent contributor to the field. So, I try to utilize every learning opportunity that I get through my academic courses and self-study to the fullest. Apart from Academics, I love solving security challenges in platforms like Try Hack Me <a href="https://tryhackme.com/p/Ashwaynn">[my THM profile]</a>.</p>
+
+            <!-- Publication -->
+
+            <h2>Publication</h2>
+
+            <h3>Deep Learning and NLP based Side Channel Attack for Text Inference in Smartphones</h3>
+
+            <ul>
+                <li>Worked on a PoC for a side channel attack, using which the information typed on an Android smartphone's keyboard can be inferred by any background process.</li>
+                <li>Proved that it is possible to predict the letters typed by a victim by exploiting the readings from motion sensors like accelerometer and gyroscope and by using a Recurrent Neural Network.</li>
+                <li>Published this in IJEAT <a href="https://www.ijeat.org/wp-content/uploads/papers/v9i2/B3432129219.pdf">[Paper's Link]</a>.</li>
+            </ul>
+
+            <!-- Technical Skills -->
+
+            <h2>Technical Skills</h2>
+
+            <table>
+                <tr>
+                    <td><p><b>Primary Skills</b></p></td>
+                    <td><p>Web Application Exploitation (using techniques like XSS, SQL injection, Command injection, IDOR, SSRF etc.), Buffer Overflow Exploitation, Android App Development.</p></td>
+                </tr>
+                <tr>
+                    <td><p><b>Languages</b></p></td>
+                    <td><p>C, C++, Java, Python, HTML, JavaScript, SQL, Bash, C#</p></td>
+                </tr>
+                <tr>
+                    <td><p><b>Operating Systems</b></p></td>
+                    <td><p>Linux, Windows, Android</p></td>
+                </tr>
+                <tr>
+                    <td><p><b>Tools & Technologies</b></p></td>
+                    <td><p>Nmap, Burp Suite, Metasploit, Mimikatz, Shellter,  GDB, Kerberos, Wireshark, OpenSSL, osquery, Clang static analyzer, YARA</p></td>
+                </tr>
+            </table>
+ 
+            <!-- Projects -->
+
+            <h2>Projects</h2>
+
+            <!-- Kerberos -->
+
+            <p><b>Implementation of a Kerberos realm using Docker</b> <span style="float: right;"><i>February 2022</i></span></p>
+
+            <ul class="ul-project">
+                <li>Implemented Kerberos authentication for services running inside Linux Docker containers.</li>
+                <li>Configured a Linux docker container to serve as a Kerberos server using the packages <i>krb5-kdc</i> and <i>krb5-admin-server</i>.</li>
+                <li>Added the needed user and service principals to the database of the Kerberos server and generated <i>keytab</i> files for the service principals.</li>
+                <li>Configured a Linux Docker container to serve as a Kerberos client using the packages <i>krb5-user</i> and <i>krb5-config</i>.</li>
+                <li>Configured the services running in the containers to use Kerberos authentication.</li>
+            </ul>
+
+
+            <!-- Virus -->
+
+            <p><b>An ELF file infecting virus</b><span style="float: right;"><i>December 2021</i></p>
+            
+            <ul  class="ul-project">
+                <li>Developed a computer virus to understand the methodology that a typical malware writer utilizes to develop a virus.</li>
+                <li>Designed the virus to look for an uninfected ELF file in the current directory. On finding one, the virus copies itself into the host file while preserving it's original functionality. When the infected ELF file is executed, the file functions as usual but the virus code in it is designed to repeat the process of infecting an ELF file in the background.</li>
+            </ul>
+
+            <!-- Secure Internal Network -->
+            
+            <p><b>Implementation of a Secure Internal Network</b><span style="float: right;"><i>October 2021</i></p>
+
+            <ul class="ul-project">
+                <li>Demonstrated an implementation of a secure Internal Network using Virtual Machines, in which a Linux VM acted as the Gateway for a Windows VM on the internal network.</li>
+                <li>Configured the Internal Network Interface of the Linux VM (Gateway) using <i>Netplan</i> and then enabled IP forwarding.</li>
+                <li>Configured <i>bind9</i> as a caching DNS server in the Linux VM.</li>
+                <li>Configured the network settings on the Windows VM appropriately to achieve the internal network setup.</li>
+                <li>Utilized <i>iptables</i> to implement a firewall that controlled the traffic between the internal network and the external network.</li>
+            </ul>
+
+            <!-- Phishing Plugin -->
+
+            <p><b>Privacy focused Chrome extension for phishing detection</b><span style="float: right;"><i>July 2018 - September 2018</i></p>
+            
+            <ul class="ul-project">
+                <li>Developed an extension for detecting phishing websites using <i>Random Forest Classifier</i>.</li>
+                <li>Ensured user's privacy, by designing the extension to not collect and send user's browsing data for classification. Instead the classification is performed on the client side with a one time download of the classifier model.</li>
+            </ul>
+
+            <!-- Event-me -->
+
+            <p><b>Event Management Application (Android App)</b><span style="float: right;"><i>June 2017 - July 2017</i></p>
+            
+            <ul class="ul-project">
+                <li>Developed an Android application to create and manage events.</li>
+                <li>Introduced additional features such as sharing of event's information with friends, group chat and participants' live tracking.</li>
+            </ul>
+
+            <!-- Croptor -->
+
+            <p><b>Crop fields Monitoring Bot (IoT)</b><span style="float: right;"><i>February 2017</i></p>
+
+            <ul class="ul-project">
+                <li>Developed an Android application that controlled a <i>Raspberry pi</i> driven bot which was developed to survey a field at specific intervals and send the field's environment data (like soil moisture, air quality etc.) back to the application.</li>
+            </ul>
+
+            <h2>Certifications</h2>
+
+            <ul>
+                <li><p>Linux Privilege Escalation for Beginners <i>(Heath Adams - TCM Security, Inc. - Udemy)</i><span style="float: right;"><i>April 2021</i></p></li>
+
+                <li><p>Learn Website Hacking / Penetration Testing From Scratch <i>(Zaid Sabih - z Security - Udemy)</i><span style="float: right;"><i>March 2020</i></p></li>
+                
+                <li><p>Real-Time Cyber Threat Detection & Mitigation <i>(New York University Tandon School of Engineering - Coursera)</i><span style="float: right;"><i>March 2019</i></p></li>
+                
+                <li><p>Neural Networks and Deep Learning <i>(deeplearning.ai - Coursera)</i><span style="float: right;"><i>January 2019</i></p></li>
+                
+                <li><p>Cyber Attack Countermeasures <i>(New York University Tandon School of Engineering - Coursera)</i><span style="float: right;"><i>January 2019</i></p></li>
+            </ul>
+            
+
+        </div>
+    </body>
+</html>

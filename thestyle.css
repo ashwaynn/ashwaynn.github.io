@@ -1,0 +1,56 @@
+body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#main-div {
+   padding-left: 5px;
+   padding-right: 5px; 
+}
+
+h1 {
+    padding-left: 5px; 
+    margin-bottom: -5px;
+    font-family: 'Varela Round', sans-serif;
+    color: #111;
+}
+
+h3 {
+    color: #111;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2, p, li {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ul-project {
+    margin-right: 205px;
+}
+
+a {
+    color: #4ac3f3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #049bd6;
+}
+
+td:nth-child(1) {
+    width: 15%;
+    vertical-align: text-top;
+}
+
+td:nth-child(2) {
+    width: 85%;
+    vertical-align: text-top;
+}
+
+td {
+    padding-right: 6px;
+    padding-bottom: 5px;
+}
