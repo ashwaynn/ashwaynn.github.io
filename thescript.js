@@ -6,6 +6,8 @@ window.addEventListener('scroll', () => {
   } else {
     header.classList.remove('active');
   }
+  const dropdownMenu = document.getElementById('dropdownMenu');
+  dropdownMenu.classList.remove('active-dropdown');
 });
 
 function toggleDropdown() {
