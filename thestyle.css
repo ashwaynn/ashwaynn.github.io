@@ -69,7 +69,7 @@ body {
 }
 
 #container-div {
-    max-width: 850px;
+    max-width: 1000px;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -87,7 +87,7 @@ h3 {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-@media (max-width: 703px) {
+@media (max-width: 1000px) { /*The Sticky Header modifying CSS*/
     
     .nav-ul {
         display:none;
@@ -150,13 +150,13 @@ h3 {
     
 }
 
-@media (min-width: 704px) {
+@media (min-width: 1001px) { /*The Sticky Header modifying CSS*/
     .dropdown-menu {
         display: none;
     }
 }
 
-@media (min-width: 800px){
+@media (min-width: 1001px){ /*The Date positioning CSS*/
     .date {
         text-align: end;
         margin-top: -35px;
@@ -168,7 +168,7 @@ h3 {
 }
 
 
-@media (max-width: 799px){
+@media (max-width: 1000px){ /*The Date positioning CSS*/
     .date {
         margin-top: -10px;
         margin-left: 19px;
@@ -185,10 +185,6 @@ p, li {
     font-family: 'Nunito', sans-serif;
 }
 
-h2 {
-    color: #8fec8f;
-    font-family: 'Nunito', sans-serif;
-}
 
 a {
     color: #4ac3f3;
@@ -198,6 +194,16 @@ a {
 a:hover {
     color: #049bd6;
 }
+
+h2 {
+    color: #8fec8f;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2:hover {
+    color: #8fec8f;
+}
+
 
 td:nth-child(1) {
     width: 15%;
