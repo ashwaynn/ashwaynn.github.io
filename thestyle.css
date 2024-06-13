@@ -10,7 +10,7 @@ body {
 
 .sticky-header {
     position: fixed;
-    top: -125px; 
+    top: -140px; 
     left: 0;
     width: 100%;
     background-color: #161616;
