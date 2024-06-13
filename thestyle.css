@@ -89,6 +89,9 @@ h3 {
 }
 
 @media (max-width: 1000px) { /*The Sticky Header modifying CSS*/
+    #home {
+        font-size: xx-large;
+    }
     
     .nav-ul {
         display:none;
@@ -147,6 +150,10 @@ h3 {
       
       .dropdown-menu.active-dropdown {
         display: block;
+      }
+
+      #dropdown-menu-li{
+        font-size: xx-large;
       }
 
       
